@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		267C5BD128A0E6E2008CD923 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BD028A0E6E2008CD923 /* main.swift */; };
+		267C5BE828A11AC2008CD923 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BE728A11AC2008CD923 /* Command.swift */; };
+		267C5BEA28A11B4D008CD923 /* Barbecurer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BE928A11B4D008CD923 /* Barbecurer.swift */; };
+		267C5BEC28A11C0B008CD923 /* BakeMuttonCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BEB28A11C0B008CD923 /* BakeMuttonCommand.swift */; };
+		267C5BEE28A11C62008CD923 /* BakeChickenWingCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BED28A11C62008CD923 /* BakeChickenWingCommand.swift */; };
+		267C5BF028A11C9B008CD923 /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267C5BEF28A11C9B008CD923 /* Waiter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		267C5BCD28A0E6E2008CD923 /* Command */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Command; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C5BD028A0E6E2008CD923 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		267C5BE728A11AC2008CD923 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		267C5BE928A11B4D008CD923 /* Barbecurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbecurer.swift; sourceTree = "<group>"; };
+		267C5BEB28A11C0B008CD923 /* BakeMuttonCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeMuttonCommand.swift; sourceTree = "<group>"; };
+		267C5BED28A11C62008CD923 /* BakeChickenWingCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakeChickenWingCommand.swift; sourceTree = "<group>"; };
+		267C5BEF28A11C9B008CD923 /* Waiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,20 @@
 		267C5BCF28A0E6E2008CD923 /* Command */ = {
 			isa = PBXGroup;
 			children = (
+				267C5BE928A11B4D008CD923 /* Barbecurer.swift */,
+				267C5BE628A11AB7008CD923 /* Command */,
+				267C5BEF28A11C9B008CD923 /* Waiter.swift */,
 				267C5BD028A0E6E2008CD923 /* main.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		267C5BE628A11AB7008CD923 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				267C5BE728A11AC2008CD923 /* Command.swift */,
+				267C5BEB28A11C0B008CD923 /* BakeMuttonCommand.swift */,
+				267C5BED28A11C62008CD923 /* BakeChickenWingCommand.swift */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -121,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				267C5BD128A0E6E2008CD923 /* main.swift in Sources */,
+				267C5BF028A11C9B008CD923 /* Waiter.swift in Sources */,
+				267C5BE828A11AC2008CD923 /* Command.swift in Sources */,
+				267C5BEA28A11B4D008CD923 /* Barbecurer.swift in Sources */,
+				267C5BEE28A11C62008CD923 /* BakeChickenWingCommand.swift in Sources */,
+				267C5BEC28A11C0B008CD923 /* BakeMuttonCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
